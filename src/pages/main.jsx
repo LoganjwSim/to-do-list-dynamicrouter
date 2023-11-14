@@ -24,7 +24,9 @@ const Main = () => {
 
   return (
     <main className="min-h-screen max-w-screen-md mx-auto">
-      <h1 className="text-center text-4xl font-bold py-12">To do list</h1>
+      <h1 className="bg-red-600 text-center text-4xl font-bold py-12">
+        김멋사 포획 List
+      </h1>
       <CreateTodo todos={todos} getTodos={getTodos} lastTodoId={lastTodoId} />
       <ul className="w-96 mx-auto mt-12 h-[30rem] overflow-y-auto">
         {todos.length === 0
